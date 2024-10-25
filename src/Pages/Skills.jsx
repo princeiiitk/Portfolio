@@ -6,7 +6,7 @@ export default function Skills() {
     <>
       <Navbar></Navbar>
       <div>
-        Skills
+       
       </div>
       <Footer></Footer>
    </>
