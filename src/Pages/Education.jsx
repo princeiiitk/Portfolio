@@ -6,7 +6,7 @@ export default function Education() {
   return (
     <>
       <Navbar />
-      <div>Education</div>
+     
       <Footer/>
     </>
    
