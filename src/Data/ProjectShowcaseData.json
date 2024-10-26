@@ -1,0 +1,24 @@
+{
+  "ProjectShowcaseData": [
+    {
+      "id":1,
+      "imglogo": "/src/Asset/React.jpg",
+      "gitimg": "/src/Asset/github.png",
+      "Deploymentlogo":"/src/Asset/deployment.png",
+      "Description": "This food delivery website is a full-stack application built with the MERN stack—MongoDB, Express, React, and Node.js—offering a seamless, user-friendly experience for ordering food. The site includes a responsive, mobile-friendly interface with a clean design, secure JWT-based authentication, and efficient state management using React's Context API. It features RESTful APIs and MongoDB integration for reliable backend support and secure data storage of user information, menu details, and order history. With robust order tracking, modular code, and reusable components, this project highlights my skills in full-stack development, focusing on scalability, maintainability, and an optimized user experience."
+    },
+    {
+      "id":2,
+      "imglogo": "/src/Asset/Node.jpg",
+      "gitimg": "/src/Asset/github.png",
+      "Deploymentlogo":"/src/Asset/deployment.png",
+      "Description": "This food delivery website is a full-stack application built with the MERN stack—MongoDB, Express, React, and Node.js—offering a seamless, user-friendly experience for ordering food. The site includes a responsive, mobile-friendly interface with a clean design, secure JWT-based authentication, and efficient state management using React's Context API. It features RESTful APIs and MongoDB integration for reliable backend support and secure data storage of user information, menu details, and order history. With robust order tracking, modular code, and reusable components, this project highlights my skills in full-stack development, focusing on scalability, maintainability, and an optimized user experience."
+    },
+    {
+      "id":3,
+      "imglogo": "/src/Asset/Js.jpg",
+      "gitimg": "/src/Asset/github.png",
+      "Deploymentlogo":"/src/Asset/deployment.png",
+      "Description": ""
+    }
+]}

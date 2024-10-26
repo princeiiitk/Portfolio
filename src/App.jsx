@@ -5,6 +5,7 @@ import Skills from './Pages/Skills';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  // Correct import
+import ProjectShowcase from './Pages/ProjectShowcase';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/Skills' element={<Skills />} />
           <Route path='/Projects' element={<Project />} />
           <Route path='/Resume' element={<Resume />} />
+          <Route path='/ProjectShowcase/:id' element={<ProjectShowcase/>} />
         </Routes>
       </BrowserRouter>
     </>

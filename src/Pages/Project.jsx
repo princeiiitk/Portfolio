@@ -1,13 +1,14 @@
 import Navbar from '../Component/Navbar'
 import Footer from '../Component/Footer'
+import Cardproject from '../Component/Cardproject'
 
 export default function Project() {
   return (
     <>
       <Navbar></Navbar>
-      <div>
-        Project
-      </div>
+    
+        <Cardproject></Cardproject>
+     
       <Footer></Footer>
    </>
   )

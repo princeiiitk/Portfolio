@@ -1,14 +1,19 @@
+import Navbar from '../Component/Navbar';
+import Footer from '../Component/Footer';
+import resume from '../Data/Prince_resume.pdf';
 
-import Navbar from '../Component/Navbar'
-import Footer from '../Component/Footer'
 export default function Resume() {
   return (
     <>
-      <Navbar></Navbar>
-      <div>
-        Resume
+      <Navbar />
+      <div className="flex justify-center items-center h-screen bg-gray-900 p-5 shadow-inner">
+        <iframe
+          src={resume}
+          title="Resume"
+          className="w-full h-5/6 border-none rounded-lg shadow-lg bg-white"
+        />
       </div>
-      <Footer></Footer>
+      <Footer />
     </>
-  )
+  );
 }
