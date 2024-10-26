@@ -7,7 +7,7 @@ export default function Contact() {
 
       <Navbar></Navbar>
       <div>
-       Contact
+          
       </div>
       <Footer></Footer>
     </>
