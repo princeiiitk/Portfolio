@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="flex-shrink-0">
               <img
                 className="w-10 h-10 rounded-full"
-                src="/src/Asset/prince.jpg"
+                src="../../Asset/prince.jpg"
                 alt="Prince"
               />
             </div>

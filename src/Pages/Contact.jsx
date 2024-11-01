@@ -48,10 +48,10 @@ export default function Contact() {
         <h3 className="text-2xl font-semibold mb-4 text-center">Contact Information</h3>
         <div className="flex flex-col items-center space-y-6 mb-8">
           {[
-            { label: 'LinkedIn', icon: '/src/Asset/Linkedin.png', link: 'https://www.linkedin.com/in/princeiiitk/' },
-            { label: 'princekumariiitkota@gmail.com', icon: '/src/Asset/gmail.png', link: '' },
-            { label: 'GitHub', icon: '/src/Asset/github.png', link: 'https://github.com/princeiiitk' },
-            { label: '+91-7412990676', icon: '/src/Asset/call.png', link:"" }
+            { label: 'LinkedIn', icon: '../../Asset/Linkedin.png', link: 'https://www.linkedin.com/in/princeiiitk/' },
+            { label: 'princekumariiitkota@gmail.com', icon: '../../Asset/gmail.png', link: '' },
+            { label: 'GitHub', icon: '../../Asset/github.png', link: 'https://github.com/princeiiitk' },
+            { label: '+91-7412990676', icon: '../../Asset/call.png', link:"" }
           ].map((item, index) => (
             <div
               key={index}

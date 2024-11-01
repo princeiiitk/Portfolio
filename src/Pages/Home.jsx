@@ -34,7 +34,7 @@ export default function Home() {
           <div className="md:w-1/2 flex justify-center mb-4 md:mb-0">
             <img
               className="w-[70%] md:w-[90%] h-auto rounded-lg transform transition-transform duration-700 ease-in-out hover:scale-110 hover:rotate-2 shadow-lg"
-              src="/src/Asset/prince.jpg"
+              src="../../Asset/prince.jpg"
               alt="Prince's Profile"
             />
           </div>
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="md:w-1/2 flex justify-center mb-4 md:mb-0">
             <img
               className="w-[70%] md:w-[90%] h-auto rounded-lg transform transition-transform duration-700 ease-in-out hover:scale-110 hover:rotate-2 shadow-lg"
-              src="/src/Asset/prince.jpg"
+              src="../../Asset/prince.jpg"
               alt="Prince's Profile"
             />
           </div>

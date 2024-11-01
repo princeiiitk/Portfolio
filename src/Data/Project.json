@@ -2,69 +2,68 @@
   "ProjectData": [
     {
       "id": 1,
-      "img": "/src/Asset/MERN1.png",
+      "img": "../../Asset/MERN1.png", 
       "Description": "Dynamic Food Ordering App with Filters"
     },
     {
       "id": 2,
-      "img": "/src/Asset/MERN1.png",
+      "img": "../../Asset/MERN1.png", 
       "Description": "ChatConnect: Real-Time Messaging"
     },
     {
       "id": 3,
-      "img": "/src/Asset/c++.jpg",
-      "Description": " Banking Management System Development"
+      "img": "../../Asset/c++.jpg",
+      "Description": "Banking Management System Development"
     },
-     {
+    {
       "id": 4,
-      "img": "/src/Asset/react.jpg",
-      "Description": "Readom password genrator using React.js"
+      "img": "../../Asset/react.jpg",
+      "Description": "Readom password generator using React.js"
     },
     {
       "id": 5,
-      "img": "/src/Asset/redux1.png",
+      "img": "../../Asset/redux1.png",
       "Description": "Todo Management using Redux-Toolkit"
     },
     {
       "id": 6,
-      "img": "/src/Asset/react.jpg",
+      "img": "../../Asset/react.jpg",
       "Description": "Todo Management using ContextApi"
     },
     {
       "id": 7,
-      "img": "/src/Asset/react.jpg",
+      "img": "../../Asset/react.jpg",
       "Description": "Weather website using React.js"
     },
     {
       "id": 8,
-      "img": "/src/Asset/python1.png",
-      "Description": "Placement prediction using python"
+      "img": "../../Asset/python1.png",
+      "Description": "Placement prediction using Python"
     },
-     {
+    {
       "id": 9,
-      "img": "/src/Asset/react.jpg",
-      "Description": "Currency Convertor using React.js"
+      "img": "../../Asset/react.jpg",
+      "Description": "Currency Converter using React.js"
     },
     {
       "id": 10,
-      "img": "/src/Asset/Js.jpg",
+      "img": "../../Asset/Js.jpg",
       "Description": "Weather Website using JavaScript"
     },
     {
       "id": 11,
-      "img": "/src/Asset/python1.png",
-      "Description": "Email validation using python"
+      "img": "../../Asset/python1.png",
+      "Description": "Email validation using Python"
     },
     {
       "id": 12,
-      "img": "/src/Asset/react.jpg",
-      "Description": "Decimal To Binary Calculater using React.js"
+      "img": "../../Asset/react.jpg",
+      "Description": "Decimal To Binary Calculator using React.js"
     },
     {
       "id": 13,
-      "img": "/src/Asset/react.jpg",
-      "Description": "Arthmatic Calculater using React.js"
+      "img": "../../Asset/react.jpg",
+      "Description": "Arithmetic Calculator using React.js"
     }
-    
   ]
 }

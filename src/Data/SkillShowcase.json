@@ -2,8 +2,8 @@
   "SkillShowcaseData": [
     {
       "id": 1,
-      "imglogo": "/src/Asset/React.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/React.jpg",
+      "gitimg": "../../Asset/github.png",
    
       "Description": "React is a robust JavaScript library for building dynamic user interfaces, especially single-page applications, through a component-based architecture. I’ve learned essential concepts like useState and useEffect hooks for managing state and side effects within functional components, as well as Context API for efficient global state management, which eliminates the need for prop drilling. React’s Virtual DOM optimizes performance by reducing direct manipulations of the actual DOM, while JSX syntax simplifies component structure. This combination enables fast, efficient, and scalable UI development tailored to modern web applications.",
       
@@ -11,8 +11,8 @@
     },
     {
       "id": 2,
-      "imglogo": "/src/Asset/Node.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/Node.jpg",
+      "gitimg": "../../Asset/github.png",
     
       "Description": "Node.js is a high-performance, server-side JavaScript runtime built on Chrome's V8 engine designed to handle scalable data-intensive applications efficiently. I’ve learned core concepts in Node.js including asynchronous programming with callbacks promises and async/await which make handling I/O operations non-blocking. Node.js leverages the Event Loop to manage concurrent requests allowing for high-speed single-threaded processing. I've also worked with Express.js a popular Node.js framework, to build RESTful APIs, and used modules for modular code structure. Together, these features make Node.js ideal for developing fast scalable backend applications for web and real-time services.",
       
@@ -20,8 +20,8 @@
     },
     {
       "id": 3,
-      "imglogo": "/src/Asset/Js.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/Js.jpg",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "JavaScript is a versatile, high-level programming language primarily used for adding interactive elements to web applications. I’ve learned essential concepts such as closures for managing private variables, promises and async/await for asynchronous operations, and event handling for user interactions. JavaScript’s prototypal inheritance enables efficient object-oriented programming, and higher-order functions like map, filter, and reduce allow for functional programming patterns. Additionally, I’ve worked with ES6+ features like arrow functions, destructuring, and template literals, which improve code readability and efficiency. These concepts make JavaScript a powerful tool for both client-side and server-side development.",
       
@@ -29,8 +29,8 @@
     },
     {
       "id": 4,
-      "imglogo": "/src/Asset/Python1.png",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/Python1.png",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "Python is a versatile, high-level programming language known for its readability and efficiency, widely used in web development, data science, automation, and more. I’ve learned core Python concepts, including object-oriented programming with classes and inheritance, data structures like lists, dictionaries, and sets, and functional programming with lambdas and higher-order functions. Additionally, I’m proficient in using modules and packages to organize and reuse code, and libraries like NumPy and pandas for data analysis tasks. Python's simplicity and extensive standard library make it ideal for rapid development and prototyping across a variety of applications.",
     
@@ -38,8 +38,8 @@
     },
     {
       "id": 5,
-      "imglogo": "/src/Asset/redux1.png",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/redux1.png",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "Redux is a predictable state management library for JavaScript applications, commonly used with React to manage complex application states. I’ve learned key Redux concepts such as actions and reducers to manage how data flows and transforms in an application, and middleware like Redux Thunk for handling asynchronous operations. Redux’s centralized store enables a single source of truth, allowing components to access shared state seamlessly and maintain consistency across the application. Additionally, I’m familiar with using Redux DevTools for debugging and tracking state changes, which simplifies development and improves maintainability in larger applications..",
       
@@ -47,8 +47,8 @@
     },
     {
       "id": 6,
-      "imglogo": "/src/Asset/mongo.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/mongo.jpg",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "MongoDB is a NoSQL database designed for scalability and high performance, making it ideal for handling large volumes of unstructured data. I’ve learned core MongoDB concepts such as documents and collections, which store data in a flexible, JSON-like format, and indexes to enhance query performance. MongoDB’s aggregation framework allows for complex data transformations and analytics directly within the database, and replication and sharding enable high availability and scalability. Additionally, I’m skilled in using Mongoose, an ODM (Object Data Modeling) library for MongoDB and Node.js, to create schemas and models, ensuring a structured approach to handling data in JavaScript",
      
@@ -56,8 +56,8 @@
     },
     {
       "id": 7,
-      "imglogo": "/src/Asset/express.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/express.jpg",
+      "gitimg": "../../Asset/github.png",
     
       "Description": "Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for building web and mobile applications. I’ve learned key concepts such as middleware, which allows for the execution of functions during the request-response cycle, enabling tasks like logging, authentication, and error handling. Express.js facilitates the creation of RESTful APIs with intuitive routing methods, allowing for the definition of clean and organized endpoints. I’m proficient in using template engines like EJS or Pug for dynamic content rendering and handling form data with built-in middleware like body-parser. Additionally, Express.js supports session management and integrates seamlessly with databases, making it an essential tool for building scalable server-side applications.",
       
@@ -65,8 +65,8 @@
     },
     {
       "id": 8,
-      "imglogo": "/src/Asset/c++.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/c++.jpg",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "C++ is a versatile and powerful programming language that extends the capabilities of C by adding support for object-oriented programming (OOP), making it suitable for developing high-performance applications. I’ve learned fundamental concepts such as classes and objects, which enable encapsulation and inheritance, allowing for modular code design and reusability. C++ also supports polymorphism, enabling the creation of flexible and dynamic code. I’m proficient in utilizing the Standard Template Library (STL), which provides a rich set of algorithms and data structures, such as vectors, lists, and maps, facilitating efficient data manipulation. Additionally, I’ve gained experience with memory management techniques, including pointers and dynamic allocation, which are essential for optimizing resource usage in applications. Overall, C++ is a critical tool for software development, particularly in areas requiring high performance and fine control over system resources..",
       
@@ -74,8 +74,8 @@
     },
     {
       "id": 9,
-      "imglogo": "/src/Asset/C.jpg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/C.jpg",
+      "gitimg": "../../Asset/github.png",
     
       "Description": "C is a powerful, general-purpose programming language known for its efficiency and performance, making it a foundational language for system programming and embedded systems. I’ve learned essential concepts such as pointers, which enable direct memory access and manipulation, and data structures like arrays, linked lists, and structures for organizing complex data. C’s control flow statements, including loops and conditionals, allow for robust algorithm implementation. Additionally, I’m proficient in using functions for modular programming, enabling code reusability and clarity. The language's close-to-the-hardware nature, along with features like dynamic memory allocation using malloc and free, makes C a crucial tool for performance-critical applications.",
     
@@ -83,8 +83,8 @@
     },
     {
       "id": 10,
-      "imglogo": "/src/Asset/sql.svg",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/sql.svg",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "SQL (Structured Query Language) is a powerful language used for managing and manipulating relational databases. I’ve learned essential SQL concepts such as CRUD operations (Create, Read, Update, Delete) to interact with database tables, and joins to combine data from multiple tables effectively. I’m proficient in writing complex queries that utilize aggregate functions, such as COUNT, SUM, and AVG, to perform calculations on data sets. Additionally, I have experience with subqueries and views for more efficient data retrieval, as well as using indexes to enhance query performance. Understanding transaction management with commands like COMMIT and ROLLBACK has also been crucial for ensuring data integrity. SQL's declarative syntax makes it an essential tool for backend development and data analysis in a wide range of applications.",
      
@@ -92,8 +92,8 @@
     },
      {
       "id": 11,
-      "imglogo": "/src/Asset/HTML.png",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/HTML.png",
+      "gitimg": "../../Asset/github.png",
     
       "Description": "HTML (HyperText Markup Language) is the standard markup language used for creating and structuring content on the web. I’ve learned essential concepts such as elements and tags, which define the structure of web pages, including headings, paragraphs, links, and images. I’m proficient in using semantic HTML to improve accessibility and SEO by appropriately tagging content with elements like <header>, <article>, and <footer>. Additionally, I have experience with forms for user input, utilizing various input types and attributes to enhance user experience. I understand the importance of HTML5 features, such as multimedia elements (<video> and <audio>) and the canvas API for graphics rendering. Overall, HTML serves as the backbone of web development, providing the foundational structure necessary for building interactive and responsive web applications.",
      
@@ -101,8 +101,8 @@
     },
      {
       "id": 12,
-      "imglogo": "/src/Asset/CSS1.png",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/CSS1.png",
+      "gitimg": "../../Asset/github.png",
       
       "Description": "CSS (Cascading Style Sheets) is a stylesheet language used for describing the presentation of a document written in HTML, enabling the separation of content from design. I’ve learned essential concepts such as selectors, which allow for targeting HTML elements to apply styles, and box model principles, which define how elements are sized and spaced. I am proficient in using flexbox and CSS Grid for creating responsive layouts that adapt to different screen sizes and devices. Additionally, I have experience with animations and transitions to enhance user interaction, as well as using media queries to implement responsive design techniques. I understand the importance of CSS preprocessors like SASS or LESS for writing maintainable and organized stylesheets. Overall, CSS is a critical tool in web development, enabling the creation of visually appealing and user-friendly interfaces.",
      
@@ -110,8 +110,8 @@
     },
      {
       "id": 13,
-      "imglogo": "/src/Asset/tailwind.webp",
-      "gitimg": "/src/Asset/github.png",
+      "imglogo": "../../Asset/tailwind.webp",
+      "gitimg": "../../Asset/github.png",
      
       "Description": "Tailwind CSS is a utility-first CSS framework that enables rapid UI development by providing a comprehensive set of pre-defined utility classes for styling. I’ve learned key concepts such as responsive design through built-in responsive utilities that allow for easy adaptation of layouts to various screen sizes. I’m proficient in using customization features, including config files to tailor the design system to specific project requirements, ensuring consistency across applications. Tailwind's approach encourages the use of composition by combining utility classes directly in HTML, which promotes faster prototyping and reduces the need for writing custom CSS. Additionally, I understand the importance of dark mode support and JIT (Just-In-Time) mode for optimizing performance by generating styles on demand. Overall, Tailwind CSS streamlines the styling process, enhancing productivity while maintaining a clean and organized codebase.",
      

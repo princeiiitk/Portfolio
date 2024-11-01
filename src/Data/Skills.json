@@ -2,67 +2,67 @@
   "skillsData": [
     {
       "id": 1,
-      "img": "/src/Asset/React.jpg",
+      "img": "../../Asset/react.jpg",
       "Description": "Build user interfaces efficiently."
     },
     {
       "id": 2,
-      "img": "/src/Asset/Node.jpg",
+      "img": "../../Asset/Node.jpg",
       "Description": "Server-side JavaScript runtime environment."
     },
     {
       "id": 3,
-      "img": "/src/Asset/javascript.png",
+      "img": "../../Asset/javascript.png",
       "Description": "Dynamic web programming language."
     },
     {
       "id": 4,
-      "img": "/src/Asset/Python1.png",
+      "img": "../../Asset/Python1.png",
       "Description": "Versatile language for programming."
     },
     {
       "id": 5,
-      "img": "/src/Asset/redux1.png",
+      "img": "../../Asset/redux1.png",
       "Description": "State management for applications."
     },
     {
       "id": 6,
-      "img": "/src/Asset/mongo.jpg",
+      "img": "../../Asset/mongo.jpg",
       "Description": "NoSQL database for scalability."
     },
     {
       "id": 7,
-      "img": "/src/Asset/express.jpg",
+      "img": "../../Asset/express.jpg",
       "Description": "Web framework for Node.js."
     },
     {
       "id": 8,
-      "img": "/src/Asset/c++.jpg",
+      "img": "../../Asset/c++.jpg",
       "Description": "Powerful object-oriented programming language."
     },
     {
       "id": 9,
-      "img": "/src/Asset/C.jpg",
+      "img": "../../Asset/C.jpg",
       "Description": "Procedural programming language foundation."
     },
     {
       "id": 10,
-      "img": "/src/Asset/sql.svg",
+      "img": "../../Asset/sql.svg",
       "Description": "Database query and management."
     },
     {
       "id": 11,
-      "img": "/src/Asset/HTML.png",
+      "img": "../../Asset/HTML.png",
       "Description": "Markup language for structuring web content."
     },
     {
       "id": 12,
-      "img": "/src/Asset/CSS1.png",
+      "img": "../../Asset/CSS1.png",
       "Description": "Utility-first framework for rapid styling."
     },
     {
       "id": 13,
-      "img": "/src/Asset/tailwind.webp",
+      "img": "../../Asset/tailwind.webp",
       "Description": "Utility-first CSS framework for styling."
     }
   ]
