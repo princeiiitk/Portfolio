@@ -7,6 +7,8 @@ import Contact from './Pages/Contact';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';  // Correct import
 import ProjectShowcase from './Pages/ProjectShowcase';
 import Education from './Pages/Education';
+import CurrentWork from './Pages/CurrentWork';
+import SkillShowcase from './Pages/SkillShowcase';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
           <Route path='/Projects' element={<Project />} />
           <Route path='/Resume' element={<Resume />} />
           <Route path='/ProjectShowcase/:id' element={<ProjectShowcase />} />
-          <Route path='/Education' element={<Education/>} />
+           <Route path='/SkillShowcase/:id' element={<SkillShowcase/>} />
+          <Route path='/Education' element={<Education />} />
+          <Route path='/CurrentWork' element={<CurrentWork />} />
         
         </Routes>
       </BrowserRouter>

@@ -1,0 +1,19 @@
+{
+  "CurrentData": [
+    {
+      "id":1,
+      "imgMern": "/src/Asset/MERN.avif",
+       "imggit": "/src/Asset/github.png",
+       "imgdata":"/src/Asset/DataModeling.png",
+      "Description": ""
+    },
+    {
+        "id":2,
+        "imgDSA": "/src/Asset/DSA.avif",
+       "imgGFG": "/src/Asset/GFG.jpg",
+        "imggit": "/src/Asset/github.png",
+       "imgleet":"/src/Asset/leetcode.png",
+       "Description":" "
+    }
+]
+}

@@ -1,0 +1,19 @@
+{
+  "Education": [
+    {
+      "id": 1,
+      "img": "/src/Asset/iiitkota.jpeg",
+      "Description": "After completing JEE, I joined IIIT Kota to pursue a B.Tech in Computer Science, which has been both challenging and rewarding. The program has provided a solid foundation in core areas like Data Structures, Algorithms, Operating Systems, and Computer Networks, while also emphasizing practical applications through projects. I've worked on various projects individually and in teams, gaining hands-on experience in web development, machine learning, and full-stack development with the MERN stack. My education here has not only strengthened my technical skills but also prepared me well for a career in software development and technology"
+    },
+    {
+      "id": 2,
+      "img": "/src/Asset/12thBoard.jpg",
+      "Description": "My 12th-grade journey was a pivotal time that demanded focus and hard work especially as I prepared for both board exams and entrance tests like JEE. I dedicated myself to mastering core subjects, particularly Mathematics, in which I achieved a perfect score of 100/100. Balancing school studies with entrance exam preparation taught me effective time management and resilience, as I consistently worked to improve my knowledge and problem-solving skills. This experience not only strengthened my academic foundation but also built the discipline and determination that continues to drive me in my studies and future goals"
+    },
+    {
+      "id": 3,
+      "img": "/src/Asset/Jee.avif",
+      "Description": "My JEE journey was a challenging yet transformative experience that required intense dedication and focus. Balancing rigorous study schedules with continuous self-assessment, I concentrated on mastering core subjects like Mathematics, Physics, and Chemistry. The preparation process was demanding, but it taught me resilience, time management, and the importance of strategic planning. In the end, all the hard work paid off, allowing me to achieve my goal of joining IIIT Kota for a B.Tech in Computer Science. This journey not only opened doors for my academic future but also instilled a strong work ethic and a deep appreciation for learning."
+    }
+  ]
+}

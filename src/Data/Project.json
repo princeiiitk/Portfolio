@@ -1,55 +1,70 @@
 {
   "ProjectData": [
     {
-      "id":1,
-      "img": "/src/Asset/React.jpg",
-      "Description": ""
+      "id": 1,
+      "img": "/src/Asset/MERN1.png",
+      "Description": "MERN: Full-stack JavaScript web development."
     },
     {
-      "id":2,
-      "img": "/src/Asset/Node.jpg",
-      "Description": ""
+      "id": 2,
+      "img": "/src/Asset/MERN1.png",
+      "Description": "MERN: Full-stack JavaScript web development."
     },
     {
-      "id":3,
-      "img": "/src/Asset/Js.jpg",
-      "Description": ""
-    },
-    {
-      "id":4,
-      "img": "/src/Asset/Python.jpg",
-      "Description": ""
-    },
-    {
-      "id":5,
-      "img": "/src/Asset/redux-toolkit.webp",
-      "Description": ""
-    },
-    {
-      "id":6,
-      "img": "/src/Asset/mongo.jpg",
-      "Description": ""
-    },
-    {
-      "id":7,
-      "img": "/src/Asset/express.jpg",
-      "Description": ""
-    },
-    {
-      "id":8,
+      "id": 3,
       "img": "/src/Asset/c++.jpg",
-      "Description": ""
-    }
-    ,
-    {
-      "id":9,
-      "img": "/src/Asset/c.jpg",
-      "Description": ""
+      "Description": "Powerful versatile efficient object-oriented widely-used."
+    },
+     {
+      "id": 4,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Readom password genrator using React.js"
     },
     {
-      "id":10,
-      "img": "/src/Asset/mmsql.jpg",
-      "Description": ""
+      "id": 5,
+      "img": "/src/Asset/redux1.png",
+      "Description": "Todo Management using Redux-Toolkit"
+    },
+    {
+      "id": 6,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Todo Management using ContextApi"
+    },
+    {
+      "id": 7,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Weather website using React.js"
+    },
+    {
+      "id": 8,
+      "img": "/src/Asset/python1.png",
+      "Description": "Placement prediction using python"
+    },
+     {
+      "id": 9,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Currency Convertor using React.js"
+    },
+    {
+      "id": 10,
+      "img": "/src/Asset/Js.jpg",
+      "Description": "Weather Website using JavaScript"
+    },
+    {
+      "id": 11,
+      "img": "/src/Asset/python1.png",
+      "Description": "Email validation using python"
+    },
+    {
+      "id": 12,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Decimal To Binary Calculater using React.js"
+    },
+    {
+      "id": 13,
+      "img": "/src/Asset/react.jpg",
+      "Description": "Arthmatic Calculater using React.js"
     }
+    
   ]
 }

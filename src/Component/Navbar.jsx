@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
@@ -8,10 +8,9 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="bg-gray-800 shadow-lg sticky">
+      <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
           <div className="relative flex items-center justify-between h-16">
-        
             <div className="flex-shrink-0">
               <img
                 className="w-10 h-10 rounded-full"
@@ -25,7 +24,6 @@ export default function Navbar() {
                 onClick={() => setIsOpen(!isOpen)}
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none"
               >
-               
                 {isOpen ? (
                   <CloseIcon style={{ fontSize: 30, color: 'white' }} />
                 ) : (
@@ -34,94 +32,144 @@ export default function Navbar() {
               </button>
             </div>
 
-        
             <div className="hidden sm:flex flex-grow justify-end space-x-4">
-              <Link
+              <NavLink
                 to="/"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Home
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/skills"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Skills
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/resume"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Resume
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/projects"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Projects
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/about"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 About
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/contact"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Contact
-              </Link>
-              <Link
-                to="/Education"
-                className="text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+              </NavLink>
+              <NavLink
+                to="/education"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white px-3 py-2 rounded-md text-lg font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Education
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>
 
-      
         {isOpen && (
           <div className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
-              <Link
+              <NavLink
                 to="/"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Home
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/skills"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Skills
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/resume"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Resume
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/projects"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Projects
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/about"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 About
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/contact"
-                className="text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-yellow-500 block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                    : "text-white block px-3 py-2 rounded-md text-base font-medium hover:bg-gray-700 transition-colors"
+                }
               >
                 Contact
-              </Link>
+              </NavLink>
             </div>
           </div>
         )}

@@ -1,55 +1,69 @@
 {
   "skillsData": [
     {
-      "id":1,
+      "id": 1,
       "img": "/src/Asset/React.jpg",
-      "Description": ""
+      "Description": "Build user interfaces efficiently."
     },
     {
-      "id":2,
+      "id": 2,
       "img": "/src/Asset/Node.jpg",
-      "Description": ""
+      "Description": "Server-side JavaScript runtime environment."
     },
     {
-      "id":3,
-      "img": "/src/Asset/Js.jpg",
-      "Description": ""
+      "id": 3,
+      "img": "/src/Asset/javascript.png",
+      "Description": "Dynamic web programming language."
     },
     {
-      "id":4,
-      "img": "/src/Asset/Python.jpg",
-      "Description": ""
+      "id": 4,
+      "img": "/src/Asset/Python1.png",
+      "Description": "Versatile language for programming."
     },
     {
-      "id":5,
-      "img": "/src/Asset/redux-toolkit.webp",
-      "Description": ""
+      "id": 5,
+      "img": "/src/Asset/redux1.png",
+      "Description": "State management for applications."
     },
     {
-      "id":6,
+      "id": 6,
       "img": "/src/Asset/mongo.jpg",
-      "Description": ""
+      "Description": "NoSQL database for scalability."
     },
     {
-      "id":7,
+      "id": 7,
       "img": "/src/Asset/express.jpg",
-      "Description": ""
+      "Description": "Web framework for Node.js."
     },
     {
-      "id":8,
+      "id": 8,
       "img": "/src/Asset/c++.jpg",
-      "Description": ""
-    }
-    ,
-    {
-      "id":9,
-      "img": "/src/Asset/c.jpg",
-      "Description": ""
+      "Description": "Powerful object-oriented programming language."
     },
     {
-      "id":10,
-      "img": "/src/Asset/mmsql.jpg",
-      "Description": ""
+      "id": 9,
+      "img": "/src/Asset/C.jpg",
+      "Description": "Procedural programming language foundation."
+    },
+    {
+      "id": 10,
+      "img": "/src/Asset/sql.svg",
+      "Description": "Database query and management."
+    },
+    {
+      "id": 11,
+      "img": "/src/Asset/HTML.png",
+      "Description": "Markup language for structuring web content."
+    },
+    {
+      "id": 12,
+      "img": "/src/Asset/CSS1.png",
+      "Description": "Utility-first framework for rapid styling."
+    },
+    {
+      "id": 13,
+      "img": "/src/Asset/tailwind.webp",
+      "Description": "Utility-first CSS framework for styling."
     }
   ]
 }

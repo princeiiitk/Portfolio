@@ -5,7 +5,7 @@ export default function Card() {
     const Navigate = useNavigate();
     const SkillsData = Skills.skillsData;
     const HandleSkillShowcase=(id)=>{
-        Navigate(`/ProjectShowcase/${id}`)
+        Navigate(`/SkillShowcase/${id}`)
     }
     return (
         <>

@@ -15,7 +15,7 @@ export default function Footer() {
 
           <Link
             className="btn m-1 inline-block text-white bg-blue-600 hover:bg-blue-700 p-3 rounded-full transition-all duration-300"
-            to="https://www.facebook.com/"
+            to="https://www.facebook.com/profile.php?id=100054838400725"
             target="_blank"
             aria-label="Facebook"
           >
@@ -45,7 +45,7 @@ export default function Footer() {
 
           <Link
             className="btn m-1 inline-block text-white bg-pink-500 hover:bg-pink-600 p-3 rounded-full transition-all duration-300"
-            to="https://www.instagram.com/"
+            to="https://www.instagram.com/1me_prince/?next=%2F"
             target="_blank"
             aria-label="Instagram"
           >
@@ -55,7 +55,7 @@ export default function Footer() {
 
           <Link
             className="btn m-1 inline-block text-white bg-blue-800 hover:bg-blue-900 p-3 rounded-full transition-all duration-300"
-            to="https://www.linkedin.com/"
+            to="https://www.linkedin.com/in/princeiiitk/"
             target="_blank"
             aria-label="LinkedIn"
           >
@@ -65,7 +65,7 @@ export default function Footer() {
 
           <Link
             className="btn m-1 inline-block text-white bg-gray-800 hover:bg-gray-900 p-3 rounded-full transition-all duration-300"
-            to="https://github.com/login"
+            to="https://github.com/princeiiitk"
             target="_blank"
             aria-label="GitHub"
           >
