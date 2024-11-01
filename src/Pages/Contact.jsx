@@ -107,7 +107,7 @@ export default function Contact() {
           <button
             onClick={handleSubmit}
             type="submit"
-            className="bg-yellow-500 text-gray-900 font-semibold px-6 py-3 text-lg rounded-full transition duration-300 transform hover:bg-yellow-600 hover:scale-110 hover:shadow-lg"
+            className="bg-green-600 text-gray-900 font-semibold px-6 py-3 text-lg rounded-full transition duration-300 transform hover:bg-yellow-600 hover:scale-110 hover:shadow-lg"
           >
             Send Message
           </button>

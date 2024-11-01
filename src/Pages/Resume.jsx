@@ -1,6 +1,6 @@
 import Navbar from '../Component/Navbar';
 import Footer from '../Component/Footer';
-import resume from '../Data/Prince_resume.pdf';
+import resume from '../Data/Prince-resume.pdf';
 
 export default function Resume() {
   return (

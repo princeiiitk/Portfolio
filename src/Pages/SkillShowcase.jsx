@@ -45,7 +45,7 @@ export default function SkillShowcase() {
                             )}
                             <button
                                 onClick={() => window.open(Skills?.githublink || '#', '_blank')}
-                                className="bg-yellow-500 text-gray-900 font-semibold px-6 py-2 rounded-full mt-2 transition duration-300 hover:bg-yellow-600 hover:text-white shadow-md transform hover:scale-105"
+                                className="bg-green-500 text-gray-900 font-semibold px-6 py-2 rounded-full mt-2 transition duration-300 hover:bg-yellow-600 hover:text-white shadow-md transform hover:scale-105"
                             >
                                 View on GitHub
                             </button>

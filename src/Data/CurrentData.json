@@ -2,18 +2,18 @@
   "CurrentData": [
     {
       "id":1,
-      "imgMern": "/src/Asset/MERN.avif",
+      "imgMern": "/src/Asset/MERN1.png",
        "imggit": "/src/Asset/github.png",
        "imgdata":"/src/Asset/DataModeling.png",
-      "Description": ""
+      "Description": "Bank Management System (MERN Stack)I am currently developing a Bank Management System using the MERN stack (MongoDB, Express, React, Node.js), building on a similar project I created in C++. This application enables users to manage their bank accounts online, with core functionalities such as account creation, deposits, withdrawals, transaction history, and balance inquiries. It features secure data management on the backend with Express and Node.js, while a React frontend provides a responsive and intuitive user experience. The project emphasizes modular design and secure data handling to simulate a reliable and efficient banking environment."
     },
     {
         "id":2,
-        "imgDSA": "/src/Asset/DSA.avif",
+        "imgDSA": "/src/Asset/DSACur.webp",
        "imgGFG": "/src/Asset/GFG.jpg",
         "imggit": "/src/Asset/github.png",
        "imgleet":"/src/Asset/leetcode.png",
-       "Description":" "
+       "Description":"I am deeply committed to strengthening my Data Structures and Algorithms (DSA) skills, consistently practicing on platforms like LeetCode and GeeksforGeeks. Through solving a wide range of problems, I have built a strong foundation in various algorithms and data structures, from arrays and linked lists to advanced concepts like dynamic programming, graphs, and trees. This continuous practice has refined my problem-solving abilities, improved my code efficiency, and equipped me to tackle complex coding challenges effectively."
     }
 ]
 }
